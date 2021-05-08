@@ -13,12 +13,12 @@ client.categories = fs.readdirSync("./commands/");
     require(`./handlers/${handler}`)(client);
 }); 
 client.on('ready', () => {
-    client.user.setActivity(`@Discord Bot Tutorial`)
+    client.user.setActivity(`@Bots name`)
     console.log(`${client.user.username} ✅`)
 })
 client.on('message', async message =>{
     if(message.mentions.users.first()) {
-        if(message.mentions.users.first().id === '838632490633003030')
+        if(message.mentions.users.first().id === 'Bots Id')
         return message.channel.send(`My Prefix In **${message.guild.name}** Is \`${config.prefix}\``)
     }
     if(message.author.bot) return;
