@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-tutorial",
+  "version": "1.0.0",
+  "description": "YouTube Tutorial Bot Code",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CodeJaswant",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "discord.js": "^12.5.3"
+  }
+}
